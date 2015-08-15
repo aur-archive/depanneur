@@ -1,0 +1,19 @@
+pkgbase = depanneur
+	pkgdesc = Manages and executes the builds using the obs-build script
+	pkgver = 0.14
+	pkgrel = 2
+	url = https://download.tizen.org/tools/latest-release
+	arch = any
+	license = GPL2
+	depends = obs-build-tizen
+	depends = createrepo
+	depends = perl-json
+	depends = perl-html-template
+	depends = perl-yaml
+	depends = perl-xml-parser
+	depends = perl-crypt-ssleay
+	source = git+git://git.tizen.org/tools/depanneur
+	md5sums = SKIP
+
+pkgname = depanneur
+
